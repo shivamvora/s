@@ -26,6 +26,7 @@ const App = () => {
         return (
           <div key={key}>
             <p className="design">{val.first_name}</p>
+            <span className="design">{val.email}</span>
           </div>
         );
       })}
